@@ -5,7 +5,6 @@
 * Setup steps
 - Open Github account at https://github.com
 - Create Repo with calculater ruby 
-- Require Working source tree.
 - Require Working Git Bash / Source tree
 - Require at least 1 code editor ( VS Code / Notepad ++ / Emacs / Vim / Sublime Text) 
 - Require at Ruby.
