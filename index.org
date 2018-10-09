@@ -1,14 +1,13 @@
 #+SETUPFILE: ~/.emacs.d/org-html-themes/setup/theme-readtheorg.setup
 #+STARTUP: showall
-
 #+Edited on <2018-10-09 ဂါ>
+
 * Setup steps
 - Open Github account at https://github.com
 - Create Repo with calculater ruby 
 - Require Working Git Bash / Source tree
 - Require at least 1 code editor ( VS Code / Notepad ++ / Emacs / Vim / Sublime Text) 
 - Require  Ruby.
-
 * Notes 
 ** Git by Phway Thant Chae
 - Project တည်ဆ​ောက်ထားခြင်း မရှိသ​ေးပါက  Github မှာ Project  ကိုအသစ်ဆ​ောက်ပါ။  မိမိစက်တွင် clone လုပ်ရန် "git clone URL"  ကို command တွင် ရိုက်ထည့်ပါ။  
@@ -46,4 +45,18 @@
 #+begin_danger
 DeadLine - 2018.10.18
 #+end_danger
+
+* FAQ
+** Please tell me who you are ** error တက်ခဲ့လျှင်
+- မိမိစက်ထဲရှိ git repositories တွင် username and email သတ်မှတ်ရန်
+- "git config --global user.name "name" "
+- "git config --global user.email "*****@gmail.com" "
+
+** Project တည်ဆ​ောက်ထားခြင်း မရှိသ​ေးပါက  
+- Github မှာ Project  ကိုအသစ်ဆ​ောက်ပါ။ 
+- မိမိစက်တွင် clone လုပ်ရန် "git clone URL"  ကို command တွင် ရိုက်ထည့်ပါ။  
+
+** Project တည်ဆ​ောက်ထားပြီးသားရှိပါက 
+- " git remote add origin URL "  command တွင် ရိုက်ထည့်ပါ။  (or) ရှိပြီးသား project တွင် git ထည့်လိုပါက "git init" ပြုလုပ်ပါ။
+
 
