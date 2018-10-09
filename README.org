@@ -1,0 +1,3 @@
+#+STARTUP: showall
+
+[[http://bit.ly/ttu2k18-intern][Documentation Link]]
