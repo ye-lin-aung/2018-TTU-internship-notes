@@ -10,7 +10,41 @@
 - Require at least 1 code editor ( VS Code / Notepad ++ / Emacs / Vim / Sublime Text) 
 - Require at Ruby.
 
+* Notes 
+** Git by Phway Thant Chae
+- Project တည်ဆ​ောက်ထားခြင်း မရှိသ​ေးပါက  Github မှာ Project  ကိုအသစ်ဆ​ောက်ပါ။  မိမိစက်တွင် clone လုပ်ရန် "git clone URL"  ကို command တွင် ရိုက်ထည့်ပါ။  
+- Project တည်ဆ​ောက်ထားပြီးသားရှိပါက " git remote add origin URL "  command တွင် ရိုက်ထည့်ပါ။  ရှိပြီးသား project တွင် git ထည့်လိုပါက "git init" ပြုလုပ်ပါ။
+- Project အတွင်းရှိ ဖိုင်များ ၏ အခြေအနေကို သိလိုပါက "git status" ပြုလုပ်ပါ။
+- ပြောင်းလဲမှုပြုလုပ်ထားသောဖိုင်များကို  staging အဆင့်သို့ပေးပို့ရန် "git  add  <filename>" ပြုလုပ်ပါ။
+- Staging ပြုလုပ်ပြီးသောဖိုင်များကို commit လုပ်ရန် ' git commit -m "<commit message>"  '. 
+- Github သို့ပေးပို့ရန် " git push -u origin master " ပြုလုပ်ပါ။
+- Github မှ ဖိုင်များကို download ပြုလုပ်ရန် " git pull origin master" ပြုလုပ်ပါ။
+- မိမိပြုလုပ်ထားသော commit log များကို ကြည့်ရှုရန် " git log " ပြုလုပ်ပါ။
 * Reading List and Notes for Internship program
-
-
+** Ruby Reading List
+- [[https://launchschool.com/books/ruby/read/variables#gettingdatafromauser][Ruby Getting Data]]
+- [[https://www.tutorialspoint.com/ruby/ruby_loops.htm][Ruby Loops]]
+- [[http://ask.tiide.org/index.php?p=%2Fdiscussion%2Fcomment%2F72#Comment_72][Tiide.org training Videos]]
+- [[https://www.tutorialspoint.com/ruby/][Tutorial Point Ruby]]
+** Git Reading List
+- [[http://try.github.io/][Try Github.io]]
+- [[http://marklodato.github.io/visual-git-guide/index-en.html][Visualization Git]]
+- [[https://www.syncfusion.com/ebooks/git][Git Succinctly]]
+* Assignment 
+** First Assignment (Git)
+- Create your own account in Github.
+- Create a repository called "Calculator" in Github. 
+- Git clone "Calculator" project in your local machine.
+- Create README.md in "Calculator project".  ( README.md should include brief introduction about the ruby calculator program )
+- Push ruby calculator program code and README.md to "Calculator" repo.
+** Second Assignment (Calculator.rb) 
+- Calculator program မှာ ကိန်း ၂ ခုကို user ဆီက တောင်းပါမယ်။ ပြီးရင် အဲ့ကိန်း၂ခုရဲ့ ပေါင်းလဒ်၊ နုတ်လဒ်၊ မြေှာက်လဒ်၊ စားလဒ် နဲ့ အကြွင်း တို့ကို screen မှာပြပါ
+- အဲ့အဆင့်ပြီးရင် user ဆီက ကိန်း၂ခုကို ဘာလုပ်မှာလဲ ဆိုတာတောင်းပြီး တောင်းတဲ့ operation အတိုင်း ဆောင်ရွက်ပြီး result ကို ပြပါ။
+- အဲ့အဆင့်ပြီးရင် နောက် အဆင့်အနေနဲ့ user ကို ထပ်ပြီး operation (ပေါင်း၊ နုတ်၊ မြေှာက်၊ စား) လုပ်ချင်သေးလား။ မေးတာထည့်မယ်။ user က ထပ်လုပ်မယ် y ဆိုရင် ကိန်း၂ခုပြန်တောင်း။ operation (ပေါင်း၊ နုတ်၊ မြေှာက်၊ စား) ပြန်တောင်းပြီး အဖြေပြ။  ပြီးရင် ပေါင်း၊ နုတ်၊ မြေှာက်၊ စား လုပ်မှာလား ပြန်မေး၊ user က မလုပ်တော့ဘူး n ဆိုမှ program ပြီးမယ်။
+- user ရိုက်လိုက်တဲ့ operand 2 ခု၊ operator နဲ့ သူ့ result ကို File တစ်ခုမှာ save ရမှာပါ။ 
+- program 4 က user က ဘာ ရိုက်လိုက်တယ်. ဘာ result ထွက်လာတယ်. ဆိုတာကို file မှာ save လုပ်တာပါ
+- ဒါပြီးရင် ရေးခဲ့တဲ့ programs ၄ခုကို github မှာတင်ပေးပါ။
+#+begin_danger
+DeadLine - 2018.10.18
+#+end_danger
 
